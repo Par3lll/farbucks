@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARBUCKS Membership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- NAVBAR -->
+     <nav class="navbar">
+        <div class="wrapper">
+            <div class="logo"><img src="https://farbucks20190204060401.azurewebsites.net/images/farbucks_logo.png" alt=""></div>
+                <div class="menu">
+                    <div class="navbar-item"><a href="index.html" class="navbar-link">Home</a></div>
+                    <div class="navbar-item"><a href="coffee.html" class="navbar-link">Coffee</a></div>
+                    <div class="navbar-item"><a href="events.html" class="navbar-link">Events</a></div>
+                    <div class="navbar-item"><a href="aboutus.html" class="navbar-link">About Us</a></div>
+                </div>
+                <div class="reg-btn"><a href="register.html" class="reg-butt" style="background-color: #fff; border: 1px solid #101010; color: #101010;">Register</a></div>
+        </div>
+    </nav>
+    <!-- CONTENT-->
+    <div class="content">
+        <div class="info-cont5">
+            <div class="text1">
+                <h1>Join us and enjoy your benefits</h1>
+                <form class="formfield" method="post">
+                    <div class="addfield"><label for="name">Name      : </label><br><input type="text" name="name" id="name" placeholder="Enter your name"></div><br>
+                    <div class="addfield"><label for="address">Address   : </label><br><textarea name="address" id="address" rows="5" placeholder="Enter your address"></textarea></div><br>
+                    <div class="addfield"><label for="email">E-mail    : </label><br><input type="email" name="email" id="email" placeholder="Enter your email"></div><br>
+                    <div class="addfield"><label for="pass">Password  : </label><br><input type="password" name="pass" id="pass" placeholder="Enter your password"></div><br>
+                    <input type="checkbox" name="check" id="check" value="Agree to terms & condition"><label for="check">I agree to the <label class="terms" for="check">terms & conditions</label></label><br>
+                    <br><br><br>
+                    <button type="button" onclick="datValidation()" class="sub-btn">Start Membership</button>
+                </form>
+                <script src="form.js">
+
+                </script>
+            </div>
+                <img class="imglast" src="https://farbucks20190204060401.azurewebsites.net/images/farbucks_logo.png" alt="Logo">
+        </div>  
+    </div>
+    <!-- FOOTER -->
+    <footer class="foot">
+        <div class="footer-text">
+            <p>&copy; 2022 FARBUCKS Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
